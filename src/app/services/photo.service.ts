@@ -73,10 +73,10 @@ export class PhotoService {
       quality: 100
     });
     
-    this.photos.unshift({
+    /*this.photos.unshift({
       filepath: "soon...",
       webviewPath: capturedPhoto.webPath!
-    })
+    })*/
 
     Preferences.set({
       key:this.PHOTO_STORAGE,
